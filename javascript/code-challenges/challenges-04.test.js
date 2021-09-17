@@ -1,4 +1,3 @@
-
 'use strict';
 
 /* ------------------------------------------------------------------------------------------------
@@ -103,10 +102,9 @@ const sortByPrice = (arr) => {
   return priceLowToHigh;
 };
 
+/* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
-
 Write a function named alphabetizeBetter that takes in an array of strings and returns the same array, with the strings sorted alphabetically. Capitalization should not change the sort order of two strings.
-
 For example, ['Alphabet', 'alphabet', 'carrot', 'Zebra'] is correctly sorted, and so is ['alphabet', 'Alphabet', 'carrot', 'Zebra'].
 ------------------------------------------------------------------------------------------------ */
 
@@ -116,7 +114,6 @@ const alphabetizeBetter = (arr) => {
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 8 - Stretch Goal
-
 Write a function named sortByLength that takes in an array of strings and returns the same array, with the strings sorted by their length, lowest to highest.
 ------------------------------------------------------------------------------------------------ */
 
@@ -126,9 +123,7 @@ const sortByLength = (arr) => {
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 9 - Stretch Goal
-
 Write a function named sortNumbersByLength that takes in an array of numbers and sorts those numbers by their length.
-
 For example, [1, 14, 0.2, -281, 54782] is only correctly sorted in that order.
 ------------------------------------------------------------------------------------------------ */
 
@@ -138,7 +133,6 @@ const sortNumbersByLength = (arr) => {
 
 /*-----------------------------------------------------------------------------------------------
 CHALLENGE 10 - Stretch Goal
-
 Write a function named sortPeople that takes in an array of Person objects, each of which has firstName, lastName, and age properties, and sorts those people by their last names. Do not worry about capitalization or first names.
 ------------------------------------------------------------------------------------------------ */
 
@@ -160,11 +154,8 @@ const sortPeople = (arr) => {
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 11 - Stretch Goal
-
 Write a function named sortPeopleBetter that takes in an array of Person objects, each of which has firstName, lastName, and age properties, and sorts those people by their last names.
-
 If two people share the same last name, alphabetize on their first name.
-
 If two people have the same full name, the younger one should come first. Do not worry about capitalization.
 ------------------------------------------------------------------------------------------------ */
 
@@ -174,9 +165,7 @@ const sortPeopleBetter = (arr) => {
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 12 - Stretch Goal
-
 Write a function named sortMeetingsByDay that takes in an array of objects, each of which represents a meeting happening a particular day of the week, with a particular start time and end time.
-
 Sort the meetings by the day on which they happen, Monday-Friday. It does not matter which order meetings come in on a particular day. For example, if there are two meetings on Monday, it does not matter which comes first.
 ------------------------------------------------------------------------------------------------ */
 
@@ -200,11 +189,8 @@ const sortMeetingsByDay = (arr) => {
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 13 - Stretch Goal
-
 This challenge should use the array of meetings from challenge 9, above.
-
 Sort the meetings in the order that they start. If two meetings start at the same time on the same day, the shorter meeting should come first.
-
 You DO NOT need to use your solution to Challenge 9 in completing Challenge 10.
 ------------------------------------------------------------------------------------------------ */
 
@@ -214,11 +200,8 @@ const sortSchedule = (arr) => {
 
 /* ------------------------------------------------------------------------------------------------
 TESTS
-
 All the code below will verify that your functions are working to solve the challenges.
-
 DO NOT CHANGE any of the below code.
-
 Run your tests from the console: jest challenges-03.test.js
 ------------------------------------------------------------------------------------------------ */
 
